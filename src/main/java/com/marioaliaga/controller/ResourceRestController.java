@@ -18,7 +18,7 @@ import com.marioaliaga.model.User;
 import com.marioaliaga.service.UserService;
  
 @RestController
-public class HelloWorldRestController {
+public class ResourceRestController {
  
     @Autowired
     UserService userService;  //Service which will do all data retrieval/manipulation work

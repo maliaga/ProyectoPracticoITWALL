@@ -11,8 +11,8 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.marioaliaga.springmvc")
-public class HelloWorldConfiguration extends WebMvcConfigurerAdapter{
+@ComponentScan(basePackages = "com.marioaliaga")
+public class InitConfiguration extends WebMvcConfigurerAdapter{
 	
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
