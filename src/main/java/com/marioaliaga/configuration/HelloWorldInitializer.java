@@ -1,4 +1,4 @@
-package com.marioaliaga.springmvc.configuration;
+package com.marioaliaga.configuration;
 
 import javax.servlet.Filter;
 

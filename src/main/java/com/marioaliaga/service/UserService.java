@@ -1,8 +1,8 @@
-package com.marioaliaga.springmvc.service;
+package com.marioaliaga.service;
 
 import java.util.List;
 
-import com.marioaliaga.springmvc.model.User;
+import com.marioaliaga.model.User;
 
 
 public interface UserService {

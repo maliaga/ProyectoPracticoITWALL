@@ -1,4 +1,4 @@
-package com.marioaliaga.springmvc.model;
+package com.marioaliaga.model;
 
 public class User {
 
