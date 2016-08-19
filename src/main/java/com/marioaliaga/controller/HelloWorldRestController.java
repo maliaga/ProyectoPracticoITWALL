@@ -1,4 +1,4 @@
-package com.marioaliaga.springmvc.controller;
+package com.marioaliaga.controller;
  
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.marioaliaga.springmvc.model.User;
-import com.marioaliaga.springmvc.service.UserService;
+import com.marioaliaga.model.User;
+import com.marioaliaga.service.UserService;
  
 @RestController
 public class HelloWorldRestController {

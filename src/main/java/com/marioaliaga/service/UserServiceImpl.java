@@ -1,11 +1,11 @@
-package com.marioaliaga.springmvc.service;
+package com.marioaliaga.service;
 
 
 
 import com.itwall.model.PersonaDTO;
 import com.itwall.service.PersonaService;
 import com.itwall.service.impl.PersonaServiceImpl;
-import com.marioaliaga.springmvc.model.User;
+import com.marioaliaga.model.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

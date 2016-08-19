@@ -1,4 +1,4 @@
-package com.marioaliaga.springmvc.configuration;
+package com.marioaliaga.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
