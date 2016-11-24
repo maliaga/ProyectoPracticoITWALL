@@ -23,12 +23,15 @@ public class UserServiceImpl implements UserService{
 
 	public List<User> findAllUsers(){
 
+		System.out.println("findAllUsers s");
+
 		List<User> users = new ArrayList<User>();
 
         List<PersonaDTO> per = serv.findAll();
-
+		System.out.println("findAllUsers per " + per.size());
 			for(PersonaDTO p : per){
 				User u = new User();
+				System.out.println("findAllUsers per " + p.toString() );
 				u.setId(p.getIdPersona());
 				u.setUsername(p.getpNombre());
 				u.setAddress(p.getpDireccion());

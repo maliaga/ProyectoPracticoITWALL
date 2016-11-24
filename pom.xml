@@ -39,6 +39,14 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+
+		<dependency>
+            <groupId>api-conn-mysql</groupId>
+            <artifactId>com.itwall</artifactId>
+            <version>1.0-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>/Users/maliaga/Tools/apache-tomcat-7.0.73/lib/com.itwall-1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 
